@@ -15,10 +15,12 @@ if os.path.basename(driver_path) != "chromedriver":
     dir_path = os.path.dirname(driver_path)
     binary_path = os.path.join(dir_path, "chromedriver")
     if os.path.exists(binary_path):
-        driver_path = binary_path
+        driver_path = binary_path 
+
 
 # Otorgar permisos de ejecución al driver (necesario en macOS/Linux para evitar errores de permisos).
 os.chmod(driver_path, 0o755)
+
 
 # --- Inicialización del Navegador ---
 # Se crea la instancia del navegador utilizando el servicio con la ruta corregida.

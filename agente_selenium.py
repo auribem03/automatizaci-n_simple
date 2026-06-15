@@ -64,6 +64,7 @@ print("Hola, soy tu asistente virtual con soporte para Selenium. ¿En qué puedo
 # Ciclo principal de interacción
 while True:
     try:
+        
         user_input = input("---> ").strip()
         if not user_input:
             continue

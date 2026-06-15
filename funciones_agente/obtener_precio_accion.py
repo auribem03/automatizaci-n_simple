@@ -39,6 +39,8 @@ def obtener_precio_accion(driver, user_input):
     if not ticker:
         ticker = company_name.upper()
 
+
+
     try:
         # Inicializar el objeto Ticker de yfinance
         stock = yf.Ticker(ticker)

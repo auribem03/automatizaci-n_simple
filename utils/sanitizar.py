@@ -20,6 +20,8 @@ def sanitizar(name):
     # Convertir a minúsculas y quitar espacios en los extremos
     name = name.lower().strip()
     
+
+    
     changed = True
     # Bucle para eliminar prefijos de forma iterativa 
     # Esto permite manejar casos como "la accion de apple" eliminando primero "la accion de " y luego el espacio sobrante.

@@ -12,6 +12,8 @@ def obtener_clima(driver, user_input):
     Retorna:
         Una cadena con la temperatura o un mensaje de error.
     """
+
+    
     # Intentamos extraer el nombre de la ciudad eliminando palabras clave comunes
     # Esto ayuda si se le pasa el input completo sin procesar previamente
     city = user_input.lower().replace("clima", "").replace("temperatura", "").replace("en", "").replace("de", "").strip()
