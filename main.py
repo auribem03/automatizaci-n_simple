@@ -62,7 +62,7 @@ def chatbot():
                 print(">>> No estoy seguro de cómo ayudarte con eso. Prueba preguntando por el precio de una acción o el clima en una ciudad.")
 
         except KeyboardInterrupt:
-            # Capturar Ctrl+C para salir elegantemente
+            # Capturar Ctrl+C | Command + C para salir elegantemente
             print("\n>>> ¡Hasta luego!")
             break
         except Exception as e:
